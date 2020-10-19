@@ -1,0 +1,55 @@
+body{
+    background-color: #9ba7e7;
+    margin: 0;
+    font-family: 'Lato', sans-serif; 
+    font-size: 20px;
+    line-height: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+}
+
+header{
+    background-color: #9ba7e7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+a{
+    color:#e7dc9c ;
+    margin-right: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+header img{
+    width: 245px;
+    padding-top: 0px;
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; 
+}
+
+main img{
+    max-width: 75%;
+    margin-bottom: 0px;
+}
+
+navbar img{
+    max-width: 15%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+
+/* yellow: #e7dc9c ; black #232323 blue:#9ba7e7

@@ -1,11 +1,12 @@
 body{
-    background-color: #e7dc9c;
+    background-color:  #e7dc9c;
     margin: 0;
     font-family: 'Lato', sans-serif; 
     font-size: 20px;
     line-height: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 }
+
 header{
     background-color: #e7dc9c;
     padding-top: 50px;
@@ -14,14 +15,10 @@ header{
     
 }
 a{
-    color: #9ba7e7;
+    color:#9ba7e7;
     margin-right: 20px;
 }
 
-a:hover{
-    color: #e7dc9c;
-    background-color: #9ba7e7;
-}
 .left{
     float: left;
 }
@@ -34,9 +31,10 @@ header img{
 }
 
 main{
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+    text-align: center; 
 }
 
 main img{
@@ -45,4 +43,4 @@ main img{
 }
 
 
-/* yellow: #e7dc9c ; black #232323
+/* yellow: #e7dc9c ; black #232323 blue:#9ba7e7
