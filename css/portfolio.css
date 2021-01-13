@@ -27,7 +27,9 @@ a{
     float: right;
 }
 header img{
-    width: 245px;
+    width: 30%;
+    max-width: 245px;
+    min-width: 120px;
 }
 
 main{
@@ -38,7 +40,8 @@ main{
 }
 
 main img{
-    max-width: 30%;
+    width: 30%;
+    min-width: 150px;
     margin-bottom: 0px;
 }
 
