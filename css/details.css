@@ -1,0 +1,130 @@
+
+body {
+    background-color: #c9ebc9;
+    font-family: Arial;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  main{
+    text-align: center;
+  }
+
+  main img{
+    max-height: 75vh;
+  }
+  
+  p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #202020;
+    text-align: center;
+  } 
+  
+  #hudson_p{
+    visibility: visible;
+  }
+  
+  #hudson:hover + #hudson_p{
+    visibility: hidden;
+  }
+  
+  .container {
+    border: 5px solid #ffc476;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: fit-content;
+    block-size: fit-content;
+  }
+  
+  .top {
+    padding: 10px;
+    background: #ffc476;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+  }
+
+ 
+  .content {
+    padding: 10px;
+    background-color:#ffffb5 ;
+  }
+  
+  button:hover {
+      background-color: #7096ff;
+  }
+
+  button {
+    margin-left: 90vw;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    
+
+    background-color: #ff7096 ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffb1;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    width: auto;
+    color: #ffc476;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    user-select: none;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+  grid-template-rows: 5fr 1fr 5fr 1fr;
+  gap: 10px 0px;
+  grid-template-areas:
+    ". rubia . bart ."
+    ". rubia_audio . bart_audio ."
+    ". tia_aula . dad ."
+    ". aula_audio . dad_audio .";
+}
+
+.rubia { grid-area: rubia; }
+
+.rubia_audio { grid-area: rubia_audio; }
+
+.bart { grid-area: bart; }
+
+.bart_audio { grid-area: bart_audio; }
+
+.tia_aula { grid-area: tia_aula; }
+
+.aula_audio { grid-area: aula_audio; }
+
+.dad { grid-area: dad; }
+
+.dad_audio { grid-area: dad_audio; }
+
+.grid-container img {
+    
+  width: 100%;
+  object-fit: contain;
+}
+
+
+  /* yellow: #e7dc9c ; black #232323 blue:#9ba7e7

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!--name of page in tab-->
+      <title>Nathanial Ortiz's Portfolio</title>
+      <!--my head in tab-->
+      <link rel="icon" href="img/avatar.PNG">
+      <!--CSS Link-->
+      <link rel="stylesheet" type="text/css" href="css/pages.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+      <!--Home-->
+      </header>
+      <main>
+      <!--content-->
+      <a href="index.html"><p class="butt_1" id="home">home</p></a>
+      <a href="about.html"><p class="butt_2" id="about">about</p></a>
+      <!--column a-->
+        <div class="column">
+          <!--canadian geese-->
+          <div class="container dark-red" id="animal_top">
+            <div class="top handle dark-red">
+                <button type="button" class="dot-button red" onclick="myFunction('animal_top')"></button>
+                <button type="button" class="dot-button yellow" onclick="myFunction('animal')"></button>
+                <a href="animal_sightings.html"><button class="dot-button green"></button></a>
+            </div>
+            <div class="content red" id="animal">
+              <a href="animal_sightings.html"><img class="column_a" src="img/illustration/wild_geese.PNG"></a>
+            </div>
+          </div>
+
+          <!--cloud cat-->
+          <div class="container dark-blue" id="cloud_top">
+            <div class="top handle dark-blue">
+                <button type="button" class="dot-button red" onclick="myFunction('cloud_top')"></button>
+                <button type="button" class="dot-button yellow" onclick="myFunction('cloud')"></button>
+                <a href="cloud_cat.html"><button class="dot-button green"></button></a>
+            </div>
+            <div class="content blue" id="cloud">
+              <a href="cloud_cat.html"><img class="column_a" src="img/projects/cloud_cat.gif"></a>
+            </div>
+          </div>
+        </div>
+
+        <!--column b-->
+        <div class="column">
+          <!--audio-->
+          <div class="container dark-yellow" id="audio_top">
+            <div class="top handle dark-yellow">
+                <button type="button" class="dot-button red" onclick="myFunction('audio_top')"></button>
+                <button type="button" class="dot-button yellow" onclick="myFunction('audio')"></button>
+                <a href="audio.html"><button class="dot-button green"></button></a>
+            </div>
+            <div class="content yellow" id="audio">
+              <a href="audio.html"><img class="column_b" src="img/projects/audio.gif"></a>
+            </div>
+          </div>
+
+          <!--eichler-->
+          <div class="container dark-red" id="eichler_top">
+            <div class="top handle dark-red">
+                <button type="button" class="dot-button red" onclick="myFunction('eichler_top')"></button>
+                <button type="button" class="dot-button yellow" onclick="myFunction('eichler')"></button>
+                <a href="eichler.html"><button class="dot-button green"></button></a>
+            </div>
+            <div class="content red" id="eichler">
+              <a href="eichler.html"><img class="column_b" src="img/projects/eichler.png"></a>
+            </div>
+          </div>
+        </div>
+
+        <!--column 3-->
+        <div class="column">
+
+          <!--blurb-->
+          <div class="container dark-red" id="blurb_top">
+            <div class="top handle dark-red">
+                <button type="button" class="dot-button red" onclick="myFunction('blurb_top')"></button>
+                <button type="button" class="dot-button yellow" onclick="myFunction('blurb')"></button>
+            </div>
+            <div class="content red" id="blurb">
+              <a class="column_c">
+                <h2>Interactive Projects<br>
+                </h2>
+                <h3>
+                  Here are a few interactive pieces<br>
+                  I have worked on using a mix of <br>
+                  media and code. I coded and<br>
+                  designed this very portfolio!!<br>                  
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </main>
+      <script src="script.js"></script>
+    </body>
+</html>
