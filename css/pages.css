@@ -317,7 +317,7 @@ border-color: #b0c4f1;
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="column"] {
-    width: 100%;
+    width: 75vw;
   }
   [class*="hide"] {
     display: none;
