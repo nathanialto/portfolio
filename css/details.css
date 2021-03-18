@@ -126,5 +126,16 @@ body {
   object-fit: contain;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  main img{
+    width: 75%;
+  }
+  button{
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
 
   /* yellow: #e7dc9c ; black #232323 blue:#9ba7e7
