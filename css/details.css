@@ -126,7 +126,7 @@ body {
   object-fit: contain;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   main img{
     width: 75%;
