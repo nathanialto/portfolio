@@ -108,7 +108,7 @@ main img:hover{
     /* For mobile phones: */
     [class*="grid-container"] {
         display: block;
-        width: 75%;
+        width: 75% !important;
         margin: auto;
     }
 
