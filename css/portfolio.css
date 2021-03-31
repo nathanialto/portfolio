@@ -104,11 +104,11 @@ main img:hover{
     width: 50%
   }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="grid-container"] {
         display: block;
-        width: 75% !important;
+        width: 75%;
         margin: auto;
     }
 
