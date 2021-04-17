@@ -18,7 +18,7 @@ body {
   }
   
   p{
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #202020;
@@ -129,8 +129,9 @@ body {
 @media (max-width: 768px) {
   /* For mobile phones: */
   main img{
-    width: 95vw;
-    height: auto;
+    width: auto;
+    max-width: 90vw;
+    max-height: 75vh;
   }
   button{
     margin-left: 50vw;
@@ -145,8 +146,8 @@ body {
 @media (max-width: 1000px) {
   /* For tablets: */
   main img{
-    width: 95vw;
-    height: auto;
+    max-width: 90vw;
+    max-height: 75vh;
   }
   button{
     margin-left: 50vw;
