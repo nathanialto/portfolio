@@ -111,9 +111,19 @@ main img:hover{
         margin: auto;
         width: 75% !important;
     }
+    header img {
+        width: 60%;
+    }}
 
-header img {
-    width: 60%;
+@media screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    [class*="grid-container"] {
+        display: block;
+        margin: auto;
+        width: 75% !important;
+    }
+    header img {
+        width: 60%;
     }}
 
   
