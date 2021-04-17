@@ -129,7 +129,7 @@ body {
 @media (max-width: 768px) {
   /* For mobile phones: */
   main img{
-    width: 75vw;
+    width: auto;
   }
   button{
     margin-left: 50vw;
@@ -142,7 +142,7 @@ body {
 @media (max-width: 1000px) {
   /* For tablets: */
   main img{
-    width: 75vw;
+    width: auto;
   }
   button{
     margin-left: 50vw;
