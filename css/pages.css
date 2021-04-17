@@ -314,7 +314,7 @@ border-color: #b0c4f1;
   margin-right: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* For mobile phones: */
   [class*="column"] {
     width: 75vw;
@@ -325,7 +325,7 @@ border-color: #b0c4f1;
   
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   /* For mobile phones: */
   [class*="column"] {
     width: 75vw;

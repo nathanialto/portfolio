@@ -104,23 +104,23 @@ main img:hover{
     width: 50%
   }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /* For mobile phones: */
     [class*="grid-container"] {
         display: block;
         margin: auto;
-        width: 75% !important;
+        width: 75%;
     }
     header img {
         width: 60%;
     }}
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     /* For mobile phones: */
     [class*="grid-container"] {
         display: block;
         margin: auto;
-        width: 75% !important;
+        width: 75%;
     }
     header img {
         width: 60%;
