@@ -126,8 +126,21 @@ body {
   object-fit: contain;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* For mobile phones: */
+  main img{
+    width: 75vw;
+  }
+  button{
+    margin-left: 50vw;
+    transform: translate(-50%, 0%);
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* For tablets: */
   main img{
     width: 75vw;
   }

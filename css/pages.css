@@ -325,4 +325,17 @@ border-color: #b0c4f1;
   
 }
 
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="column"] {
+    width: 75vw;
+  }
+  [class*="hide"] {
+    display: none;
+  }
+  
+}
+
+
+
 /* yellow: #e7dc9c ; black #232323 blue:#9ba7e7
