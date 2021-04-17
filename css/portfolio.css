@@ -110,7 +110,6 @@ main img:hover{
         display: block;
         margin: auto;
         width: 75% !important;
-        overflow-x: hidden !important;
     }
 
 header img {
