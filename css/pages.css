@@ -335,7 +335,7 @@ border-color: #b0c4f1;
   
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   /* For mobile phones: */
   [class*="column"] {
     width: 75vw;
