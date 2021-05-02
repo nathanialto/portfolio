@@ -26,9 +26,18 @@ h2{
   font-style: italic;
   color: #7096ff;
   text-decoration: none;
-  background-color: #ffffb1;
   margin-top: 0;
 } 
+
+h2 > mark {
+  font-size: 32px;
+  font-style: italic;
+  color: #7096ff;
+  text-decoration: none;
+  background-color: #ffffb1;
+  margin-top: 0;
+
+}
 
 h3{
   font-size: 20px;
@@ -265,7 +274,8 @@ border-color: #b0c4f1;
   font-weight: bold;
   position: fixed;
   bottom: 0vh;
-  right: 47vw;
+  left: 50%;
+  transform: translate(-50%,0)
 }
 
 .butt_1 {
@@ -325,7 +335,7 @@ border-color: #b0c4f1;
   
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   /* For mobile phones: */
   [class*="column"] {
     width: 75vw;
@@ -333,6 +343,16 @@ border-color: #b0c4f1;
   [class*="hide"] {
     display: none;
   }
+  .left{
+    width: 90%;
+    float: left;
+    min-width: 400px;
+    margin-top: 5%;
+  }
+  .bio{
+    margin-bottom: 10%;
+  }
+  
   
 }
 
