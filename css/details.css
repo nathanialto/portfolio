@@ -126,7 +126,7 @@ body {
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   /* For mobile phones: */
   main img{
     width: auto;
@@ -143,19 +143,5 @@ body {
   }
 }
 
-@media (max-width: 900px) {
-  /* For tablets: */
-  main img{
-    max-width: 90vw;
-    max-height: 75vh;
-  }
-  button{
-    margin-left: 50vw;
-    transform: translate(-50%, 0%);
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-    font-size: 1.5em;
-  }
-}
 
   /* yellow: #e7dc9c ; black #232323 blue: #9ba7e7
