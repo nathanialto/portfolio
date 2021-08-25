@@ -115,7 +115,6 @@ const interactives = [
   {'image': 'img/projects/forking_frijoles.gif','link': 'https://natanyel.com/forking_frijoles/',},
   {'image': 'img/projects/sheridan_rd.png','link': 'https://nathanialto.github.io/sheridan_rd/',},
   {'image': 'img/projects/housing_guide.png','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
-
   {'image': 'img/illustration/compressed/wild_geese.PNG','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
   {'image': 'img/projects/cloud_cat.gif','link': 'https://nathanialto.github.io/cloud_cat/',},
   {'image': 'img/projects/eichler.png','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
