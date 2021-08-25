@@ -139,10 +139,10 @@ iframe{
 @media (max-width: 1200px) {
     /* Mobile styles go here */
     .img-div{
-        height: 13.5vw;
+        height: 11vw;
     }
     .interactives{
-        width: 12vw;
+        width: 12.5vw;
         height: auto;
     }
 }
