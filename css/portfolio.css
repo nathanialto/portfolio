@@ -106,7 +106,6 @@ button:hover{
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
-
 }
 .card{
     width: 45%;
@@ -127,17 +126,27 @@ button:hover{
     margin:0;
 }
 .img-div{
-    height: 200px;
+    height: 12.5vw;
     border: 0;
 }
 .interactives{
-    width: 15vw;
+    width: 14.5vw;
     height: auto;
 }
 iframe{
     overflow: hidden;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+    /* Mobile styles go here */
+    .img-div{
+        height: 13.5vw;
+    }
+    .interactives{
+        width: 12vw;
+        height: auto;
+    }
+}
+@media (max-width: 850px) {
     /* Mobile styles go here */
     .img-div{
         width: 35vw;
