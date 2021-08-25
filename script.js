@@ -31,9 +31,8 @@ const getIllustrations = (term) => {
   const elem = document.querySelector('#cards');
   const title = document.querySelector('#name');
   title.innerHTML = 'illustration';
-
   elem.innerHTML = "";
-  for (i=0; i < 20; i++){
+  for (i=0; i < 19; i++){
     elem.innerHTML += createIllustrations(illustrations[i]);
   }
 }
@@ -42,7 +41,6 @@ const getInteractives = (term) => {
   const elem = document.querySelector('#cards');
   const title = document.querySelector('#name');
   title.innerHTML = 'interactives';
-
   elem.innerHTML = "";
   for (i=0; i < 6; i++){
     elem.innerHTML += createInteractives(interactives[i]);
@@ -60,16 +58,22 @@ const getAbout = (term) => {
 
 const createIllustrations = (data) => {
 
-  return`<section class="card">
+  const piece_title = document.querySelector("#piece");
+  piece_title.innerHTML = "click to explore";
+
+  return`<section class="card" onclick="nameIllustrations('${data.piece}')">
     <div>
-      <a href="${data.link}">
-        <img class="img-div" src="${data.image}";">
+      <a>
+        <img class="img-div" src="${data.image}">
       </a>
     </div>
   </section>`
 };
 
 const createInteractives = (data) => {
+
+  const piece_title = document.querySelector("#piece");
+  piece_title.innerHTML = "click to explore";
 
   return`<section class="card">
     <div>
@@ -81,6 +85,8 @@ const createInteractives = (data) => {
 };
 
 const createAbout = (data) => {
+  const piece_title = document.querySelector("#piece");
+  piece_title.innerHTML = "hi, i'm nathanial";
 
   return`
     <div>
@@ -88,31 +94,38 @@ const createAbout = (data) => {
     </div>`
 };
 
+const nameIllustrations = (data) => {
+
+  const piece_title = document.querySelector("#piece");
+  piece_title.innerHTML = "";
+  piece_title.innerHTML = data;
+};
+
 const illustrations = [
-  {'image': 'img/illustration/bread.PNG', 'link': '#'},
-  {'color': 'blue', 'image': 'img/illustration/daily evicted.PNG', 'link': 'evicted.html'},
-  {'color': 'yellow', 'image': 'img/illustration/spencer.PNG', 'link': 'spencer.html'},
-  {'image': 'img/illustration/admit_rate.PNG', 'link': '#'},
-  {'image': 'img/illustration/flan.GIF', 'link': '#'},
-  {'image': 'img/illustration/mango.PNG', 'link': '#'},
-  {'image': 'img/illustration/chicken_wing.PNG', 'link': '#'},
-  {'image': 'img/illustration/music_major.PNG', 'link': '#'},
-  {'color': 'blue', 'image': 'img/illustration/compressed/the_hudson_com.png', 'link': 'hudson.html'},
-  {'color': 'red', 'image': 'img/illustration/compressed/valentines.PNG', 'link': 'valentines.html'},
-  {'color': 'red', 'image': 'img/illustration/lunch_at_janets.GIF', 'link': 'lunch.html'},
-  {'color': 'yellow', 'image': 'img/illustration/dylan.PNG', 'link': 'dylan.html'},
-  {'color': 'blue', 'image': 'img/illustration/compressed/pomegranate_gif-min.gif', 'link': 'pomegranate.html'},
-  {'color': 'yellow', 'image': 'img/illustration/compressed/wild_geese.PNG', 'link': 'wild_geese.html'},
-  {'color': 'yellow', 'image': 'img/illustration/daily_coalitionnu.PNG', 'link': 'coalition.html'},
-  {'color': 'yellow', 'image': 'img/illustration/compressed/chloe_2@10x.png', 'link': 'chloe.html'},
-  {'color': 'red', 'image': 'img/illustration/compressed/new_reality.PNG', 'link': 'new_reality.html'},
-  {'color': 'red', 'image': 'img/illustration/compressed/Janet-poster-final.png', 'link': 'janet.html'},
-  {'color': 'red', 'image': 'img/illustration/compressed/pupusas-min.gif', 'link': 'pupusas.html'},
+  {'image': 'img/illustration/bread.PNG', 'piece': 'bread and butter, personal illustration'},
+  {'image': 'img/illustration/daily evicted.PNG', 'piece': 'evicted, daily northwestern'},
+  {'image': 'img/illustration/spencer.PNG', 'piece': 'spencer, personal illustration'},
+  {'image': 'img/illustration/admit_rate.PNG', 'piece': 'admit rate, daily northwestern'},
+  {'image': 'img/illustration/flan.GIF', 'piece': 'flan, personal illustration'},
+  {'image': 'img/illustration/mango.PNG', 'piece': 'mango, personal illustration'},
+  {'image': 'img/illustration/chicken_wing.PNG', 'piece': 'chicken wing, forking frijoles'},
+  {'image': 'img/illustration/music_major.PNG', 'piece': 'music major, daily northwestern'},
+  {'image': 'img/illustration/compressed/the_hudson_com.png', 'piece': 'the hudson, personal illustration'},
+  {'image': 'img/illustration/compressed/valentines.PNG', 'piece': 'valentines, daily northwestern'},
+  {'image': 'img/illustration/lunch_at_janets.GIF', 'piece': "lunch at janet's, personal illustration"},
+  {'image': 'img/illustration/dylan.PNG', 'piece': 'dylan, personal illustration'},
+  {'image': 'img/illustration/compressed/pomegranate_gif-min.gif', 'piece': 'pomegranate, personal illustration'},
+  {'image': 'img/illustration/compressed/wild_geese.PNG', 'piece': 'wild geese, north by northwestern'},
+  {'image': 'img/illustration/daily_coalitionnu.PNG', 'piece': 'nu coalition, daily northwestern'},
+  {'image': 'img/illustration/compressed/chloe_2@10x.png', 'piece': 'chloe, personal illustration'},
+  {'image': 'img/illustration/compressed/new_reality.PNG', 'piece': 'new_reality, personal illustration'},
+  {'image': 'img/illustration/compressed/Janet-poster-final.png', 'piece': 'janet, personal illustration'},
+  {'image': 'img/illustration/compressed/pupusas-min.gif', 'piece': 'pupusas, personal illustration'},
  
 ]
 
 const interactives = [
-  {'image': 'img/projects/forking_frijoles.GIF','link': 'https://natanyel.com/forking_frijoles/',},
+  {'image': 'img/projects/forking_frijoles.GIF','link': 'https://natanyel.com/forking_frijoles/'},
   {'image': 'img/projects/sheridan_rd.PNG','link': 'https://nathanialto.github.io/sheridan_rd/',},
   {'image': 'img/projects/housing_guide.PNG','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
   {'image': 'img/illustration/compressed/wild_geese.PNG','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},

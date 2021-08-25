@@ -168,15 +168,12 @@ iframe{
         margin-right: 0vw;
         margin-left: 0vw;
         border-radius: 0;
-        grid-template-columns: 100vw;
+        grid-template-columns: 50vw 50vw;
         grid-template-rows: 0.5fr 0.5fr 80vh;
         grid-template-areas: 
-        "a"
-        "d"
-        "e"; 
-    }
-    #side{
-        display: none;
+        "a b"
+        "d d"
+        "e e";
     }
     #explorer{
         position: fixed;
@@ -186,6 +183,9 @@ iframe{
     }
     h3{
         font-size: 0.9em;
+    }
+    .card:hover .img-div {
+        opacity: 1;
     }
 }
 /* colors */
