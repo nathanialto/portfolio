@@ -92,7 +92,7 @@ const illustrations = [
   {'image': 'img/illustration/bread.PNG', 'link': '#'},
   {'color': 'blue', 'image': 'img/illustration/daily evicted.PNG', 'link': 'evicted.html'},
   {'color': 'yellow', 'image': 'img/illustration/spencer.PNG', 'link': 'spencer.html'},
-  {'image': 'img/illustration/admit_rate.png', 'link': '#'},
+  {'image': 'img/illustration/admit_rate.PNG', 'link': '#'},
   {'image': 'img/illustration/flan.GIF', 'link': '#'},
   {'image': 'img/illustration/mango.PNG', 'link': '#'},
   {'image': 'img/illustration/chicken_wing.PNG', 'link': '#'},
