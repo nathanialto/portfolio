@@ -89,14 +89,14 @@ const createAbout = (data) => {
 };
 
 const illustrations = [
-  {'image': 'img/illustration/bread.png', 'link': '#'},
+  {'image': 'img/illustration/bread.PNG', 'link': '#'},
   {'color': 'blue', 'image': 'img/illustration/daily evicted.PNG', 'link': 'evicted.html'},
   {'color': 'yellow', 'image': 'img/illustration/spencer.PNG', 'link': 'spencer.html'},
   {'image': 'img/illustration/admit_rate.png', 'link': '#'},
-  {'image': 'img/illustration/flan.gif', 'link': '#'},
-  {'image': 'img/illustration/mango.png', 'link': '#'},
-  {'image': 'img/illustration/chicken_wing.png', 'link': '#'},
-  {'image': 'img/illustration/music_major.png', 'link': '#'},
+  {'image': 'img/illustration/flan.GIF', 'link': '#'},
+  {'image': 'img/illustration/mango.PNG', 'link': '#'},
+  {'image': 'img/illustration/chicken_wing.PNG', 'link': '#'},
+  {'image': 'img/illustration/music_major.PNG', 'link': '#'},
   {'color': 'blue', 'image': 'img/illustration/compressed/the_hudson_com.png', 'link': 'hudson.html'},
   {'color': 'red', 'image': 'img/illustration/compressed/valentines.PNG', 'link': 'valentines.html'},
   {'color': 'red', 'image': 'img/illustration/lunch_at_janets.GIF', 'link': 'lunch.html'},
@@ -112,9 +112,9 @@ const illustrations = [
 ]
 
 const interactives = [
-  {'image': 'img/projects/forking_frijoles.gif','link': 'https://natanyel.com/forking_frijoles/',},
-  {'image': 'img/projects/sheridan_rd.png','link': 'https://nathanialto.github.io/sheridan_rd/',},
-  {'image': 'img/projects/housing_guide.png','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
+  {'image': 'img/projects/forking_frijoles.GIF','link': 'https://natanyel.com/forking_frijoles/',},
+  {'image': 'img/projects/sheridan_rd.PNG','link': 'https://nathanialto.github.io/sheridan_rd/',},
+  {'image': 'img/projects/housing_guide.PNG','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
   {'image': 'img/illustration/compressed/wild_geese.PNG','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
   {'image': 'img/projects/cloud_cat.gif','link': 'https://nathanialto.github.io/cloud_cat/',},
   {'image': 'img/projects/eichler.png','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
