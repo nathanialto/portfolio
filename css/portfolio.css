@@ -25,6 +25,9 @@ p{
     color: rgb(53, 51, 59);
     margin-top: 0;
 }
+a{
+    color: white;
+}
 .container {
     margin-top: 10vh;
     margin-right: 10vw;
@@ -136,24 +139,22 @@ button:hover{
 iframe{
     overflow: hidden;
 }
-@media screen and (max-width: 1200px) {
-    /*smaller laptops */
-    .img-div{
-        height: 11vw;
-    }
-    .interactives{
-        width: 12.5vw;
-        height: auto;
-    }
-}
+
 @media screen and (max-width: 1200px) {
     /* tablets */
+    .container{
+        grid-template-columns: 25vw 55vw;
+    }
     .img-div{
-        width: 50vw;
+        width: 45vw;
         height: auto;
     }
     .interactives{
-        width: 22vw;
+        width: 18vw;
+        height: auto;
+    }
+    .featured{
+        width: 15vw;
         height: auto;
     }
 }

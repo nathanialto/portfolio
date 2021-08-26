@@ -47,6 +47,14 @@ const getInteractives = (term) => {
   }
 }
 
+const getFeatured = (term) => {
+  const elem = document.querySelector('#cards');
+  const title = document.querySelector('#name');
+  for (i=0; i < 3; i++){
+    elem.innerHTML += createFeatured(featured[i]);
+  }
+}
+
 const getAbout = (term) => {
   const elem = document.querySelector('#cards');
   const title = document.querySelector('#name');
@@ -92,6 +100,16 @@ const createAbout = (data) => {
     <div>
         <div>${data.text}</div>
     </div>`
+};
+
+const createFeatured = (data) => {
+  return`<section class="card">
+    <div onclick="nameIllustrations('${data.button}')">
+      <a ${data.link}>
+        <img class="img-div interactives" src="${data.image}";">
+      </a>
+    </div>
+  </section>`
 };
 
 const nameIllustrations = (data) => {
@@ -140,5 +158,12 @@ const about = [
     <p>As I have explore creatively, my interest in the digital space has only grown. This is reflected in my practice as I have focused on illustration and web design/development. Technology not only makes art more accesible, but also allows for new levels of interactivity and contribution.</p>
     <p>I hope to continue to focus on the visual composition of my work as well as its dynamic, interactive, and animative aspects, as well.</p>`,
   }
+]
+
+const featured = [
+  {'image': 'img/projects/forking_frijoles.GIF','link': 'target="blank" href="https://natanyel.com/forking_frijoles/"', 'button': 'forking frijoles'},
+  {'image': 'img/illustration/bread.PNG', 'button': 'bread and butter, personal illustration'},
+  {'image': 'img/projects/sheridan_rd.PNG','link': 'target="blank" href="https://nathanialto.github.io/sheridan_rd/"', 'button': 'sheridan rd'}
+   
 ]
 
