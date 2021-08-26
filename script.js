@@ -122,7 +122,7 @@ const nameIllustrations = (data) => {
 const illustrations = [
   {'image': 'img/illustration/compressed/bread.PNG', 'piece': 'bread and butter, personal illustration'},
   {'image': 'img/illustration/compressed/mango_big.PNG', 'piece': 'mango, personal illustration'},
-  {'image': 'img/illustration/compressed/asg.jpg', 'piece': 'asg, daily northwestern'},
+  {'image': 'img/illustration/compressed/asg.JPG', 'piece': 'asg, daily northwestern'},
 
   {'image': 'img/illustration/compressed/sauce.PNG', 'piece': 'hot sauce, personal illustration'},
   {'image': 'img/illustration/compressed/daily evicted.PNG', 'piece': 'evicted, daily northwestern'},
