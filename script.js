@@ -32,7 +32,7 @@ const getIllustrations = (term) => {
   const title = document.querySelector('#name');
   title.innerHTML = 'illustration';
   elem.innerHTML = "";
-  for (i=0; i < 19; i++){
+  for (i=0; i < 22; i++){
     elem.innerHTML += createIllustrations(illustrations[i]);
   }
 }
@@ -72,7 +72,7 @@ const createIllustrations = (data) => {
   return`<section class="card" onclick="nameIllustrations('${data.piece}')">
     <div>
       <a>
-        <img class="img-div" src="${data.image}">
+        <img class="img-div ${data.class}" src="${data.image}">
       </a>
     </div>
   </section>`
@@ -120,25 +120,35 @@ const nameIllustrations = (data) => {
 };
 
 const illustrations = [
-  {'image': 'img/illustration/bread.PNG', 'piece': 'bread and butter, personal illustration'},
-  {'image': 'img/illustration/daily evicted.PNG', 'piece': 'evicted, daily northwestern'},
+  {'image': 'img/illustration/compressed/bread.PNG', 'piece': 'bread and butter, personal illustration'},
+  {'image': 'img/illustration/compressed/mango_big.PNG', 'piece': 'mango, personal illustration'},
+  {'image': 'img/illustration/compressed/asg.jpg', 'piece': 'asg, daily northwestern'},
+
+  {'image': 'img/illustration/compressed/sauce.PNG', 'piece': 'hot sauce, personal illustration'},
+  {'image': 'img/illustration/compressed/daily evicted.PNG', 'piece': 'evicted, daily northwestern'},
   {'image': 'img/illustration/spencer.PNG', 'piece': 'spencer, personal illustration'},
-  {'image': 'img/illustration/admit_rate.PNG', 'piece': 'admit rate, daily northwestern'},
+
+  {'image': 'img/illustration/compressed/admit_rate.PNG', 'piece': 'admit rate, daily northwestern'},
   {'image': 'img/illustration/flan.GIF', 'piece': 'flan, personal illustration'},
-  {'image': 'img/illustration/mango.PNG', 'piece': 'mango, personal illustration'},
-  {'image': 'img/illustration/chicken_wing.PNG', 'piece': 'chicken wing, forking frijoles'},
-  {'image': 'img/illustration/music_major.PNG', 'piece': 'music major, daily northwestern'},
+  {'image': 'img/illustration/compressed/bart.GIF', 'piece': 'bart, personal illustration'},
+
+  {'image': 'img/illustration/compressed/eichler.PNG', 'piece': 'working eichler, forking frijoles'},
+  {'image': 'img/illustration/compressed/music_major.PNG', 'piece': 'music major, daily northwestern'},
   {'image': 'img/illustration/compressed/the_hudson_com.png', 'piece': 'the hudson, personal illustration'},
+
   {'image': 'img/illustration/compressed/valentines.PNG', 'piece': 'valentines, daily northwestern'},
   {'image': 'img/illustration/lunch_at_janets.GIF', 'piece': "lunch at janet's, personal illustration"},
-  {'image': 'img/illustration/dylan.PNG', 'piece': 'dylan, personal illustration'},
+  {'image': 'img/illustration/compressed/dylan.PNG', 'piece': 'dylan, personal illustration'},
+
   {'image': 'img/illustration/compressed/pomegranate_gif-min.gif', 'piece': 'pomegranate, personal illustration'},
   {'image': 'img/illustration/compressed/wild_geese.PNG', 'piece': 'wild geese, north by northwestern'},
-  {'image': 'img/illustration/daily_coalitionnu.PNG', 'piece': 'nu coalition, daily northwestern'},
-  {'image': 'img/illustration/compressed/chloe_2@10x.png', 'piece': 'chloe, personal illustration'},
-  {'image': 'img/illustration/compressed/new_reality.PNG', 'piece': 'new_reality, personal illustration'},
-  {'image': 'img/illustration/compressed/Janet-poster-final.png', 'piece': 'janet, personal illustration'},
-  {'image': 'img/illustration/compressed/pupusas-min.gif', 'piece': 'pupusas, personal illustration'},
+  {'image': 'img/illustration/compressed/daily_coalitionnu.PNG', 'piece': 'nu coalition, daily northwestern'},
+
+  // {'image': 'img/illustration/compressed/chloe_2@10x.png', 'piece': 'chloe, personal illustration', 'class': 'full'},
+  // {'image': 'img/illustration/compressed/new_reality.PNG', 'piece': 'new_reality, personal illustration', 'class': 'half'},
+  // {'image': 'img/illustration/compressed/Janet-poster-final.png', 'piece': 'janet, personal illustration', 'class': 'half'},
+
+  // {'image': 'img/illustration/compressed/pupusas-min.gif', 'piece': 'pupusas, personal illustration', 'class': 'full'},
  
 ]
 

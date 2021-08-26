@@ -136,6 +136,7 @@ button:hover{
     width: 14.5vw;
     height: auto;
 }
+
 iframe{
     overflow: hidden;
 }
@@ -187,6 +188,9 @@ iframe{
     }
     .card:hover .img-div {
         opacity: 1;
+    }
+    #window{
+        padding-bottom: 10vh;
     }
 }
 /* colors */
