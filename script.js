@@ -50,6 +50,7 @@ const getInteractives = (term) => {
 const getFeatured = (term) => {
   const elem = document.querySelector('#cards');
   const title = document.querySelector('#name');
+  elem.innerHTML = "";
   for (i=0; i < 3; i++){
     elem.innerHTML += createFeatured(featured[i]);
   }
@@ -158,7 +159,7 @@ const interactives = [
   {'image': 'img/projects/housing_guide.PNG','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
   {'image': 'img/illustration/compressed/wild_geese.PNG','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
   {'image': 'img/projects/cloud_cat.gif','link': 'https://nathanialto.github.io/cloud_cat/',},
-  {'image': 'img/projects/eichler.png','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
+  {'image': 'img/projects/eichler.png','link': 'https://nathanialto.github.io/the_eichler_homepage/',},
    
 ]
 
@@ -171,9 +172,11 @@ const about = [
 ]
 
 const featured = [
-  {'image': 'img/projects/forking_frijoles.GIF','link': 'target="blank" href="https://natanyel.com/forking_frijoles/"', 'button': 'forking frijoles'},
-  {'image': 'img/illustration/bread.PNG', 'button': 'bread and butter, personal illustration'},
-  {'image': 'img/projects/sheridan_rd.PNG','link': 'target="blank" href="https://nathanialto.github.io/sheridan_rd/"', 'button': 'sheridan rd'}
+  {'image': 'img/illustration/space_eggs_sticker_sheet.PNG', 'button': 'space eggs, sticker sheet (shop)'},
+  {'image': 'img/illustration/leche_flan_sticker_sheet.PNG', 'button': 'leche flan, sticker sheet (shop)'},
+  {'image': 'img/illustration/frijoles_sticker_sheet.PNG', 'button': 'forking frijoles, sticker sheet (shop)'},
+  {'image': 'img/projects/forking_frijoles.GIF','link': 'target="blank" href="https://natanyel.com/forking_frijoles/"', 'button': 'forking frijoles, interactive'}
+
    
 ]
 
