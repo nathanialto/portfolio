@@ -29,13 +29,13 @@ a{
     color: white;
 }
 .container {
-    margin-top: 10vh;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin-top: 6vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: 20vw 60vw;
-    grid-template-rows: 0.5fr 0.5fr 60vh;
+    grid-template-columns: 20vw 50vw;
+    grid-template-rows: 0.5fr 0.5fr 67vh;
     grid-template-areas: 
        "a a"
        "b d"
@@ -60,10 +60,11 @@ p, li {
 }
 #explorer{
     grid-area: c;
-    background-color: #b0c0e4;
+    background-color: #b0c0e4 ;
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
+    overflow-y: scroll;
 }
 #title{
     grid-area: d;
@@ -87,11 +88,14 @@ button{
     color: white;
     border-radius: 12px;
     margin-bottom: 1em;
+    display: block;
+    width: 100%;
 }
 
 button:hover{
     opacity: 0.5;
 }
+
 /* cards */
 .dot-button {
     height: 12px;
@@ -109,19 +113,22 @@ button:hover{
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-content: stretch;
+    /* flex-flow: column wrap; */
 }
 .card{
-    width: 45%;
+    /* width: 45%; */
     padding: 10px;
     border: 5px solid #ffd970;
     border-radius: 6px;
-    margin-right: 20px;
+    margin-right: 1vw;
     margin-top: 10px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     width: fit-content;
     block-size: fit-content;
 }
-.card:hover .img-div {
+a:hover .img-div {
     opacity: 0.6;
 }
 .card > div {
@@ -129,21 +136,36 @@ button:hover{
     margin:0;
 }
 .img-div{
-    height: 12.5vw;
+    width: 35vw;
+    /* height: 29vh; */
     border: 0;
 }
 .interactives{
-    width: 14.5vw;
-    height: auto;
+    width: auto;
+    height: 58vh;
 }
+.dios{
+    width: 20vw;
+    height: 100%;
+    /* height: 50vh; */
+    /* max-width: 60vw;
+    max-height: 50vh; */
+}
+.featured{
+    height: 16vw;
+    width: 100%;
+}
+
 
 iframe{
     overflow: hidden;
 }
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1000px) {
     /* tablets */
     .container{
+        margin-left: 10vw;
         grid-template-columns: 25vw 55vw;
     }
     .img-div{
@@ -154,15 +176,16 @@ iframe{
         width: 18vw;
         height: auto;
     }
-    .featured{
+    
+    /* .featured{
         width: 15vw;
         height: auto;
-    }
+    } */
 }
 @media screen and (max-width: 650px) {
     /* smartphones */
     .img-div{
-        width: 80vw;
+        width: 83vw;
         height: auto;
     }
     .container{
@@ -181,16 +204,22 @@ iframe{
         position: fixed;
         bottom: 0;
         width: 100vw;
-        text-align: center;
-    }
+        text-align: center;    }
     h3{
         font-size: 0.9em;
     }
     .card:hover .img-div {
         opacity: 1;
     }
+    .card{
+        border-color:#ffd970;
+    }
     #window{
         padding-bottom: 10vh;
+    }
+    button{
+        display: inline-block;
+        width: auto;
     }
 }
 /* colors */
@@ -204,5 +233,5 @@ border-color: #ffd970;
 }
 .blue{
 background-color: #b0c4f1;
-border-color: #7096ff;
+border-color: #8280e9;
 }
