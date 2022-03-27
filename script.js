@@ -272,6 +272,27 @@ const createPage = (data) => {
   <div ><br>${data.text}</div>
   `
 };
+
+const createLink = (data) => {
+
+  const piece_title = document.querySelector("#piece");
+  piece_title.innerHTML = data.title;
+
+  const elem = document.querySelector('#cards');
+  const title = document.querySelector('#name');
+  title.innerHTML = data.piece;
+  elem.innerHTML = "";
+  elem.innerHTML = `<section class="card">
+    <div>
+      <a href="${data.link}">
+        <img class="img-div" src="${data.image}";">
+        </a>
+    </div>
+  </section>
+  
+  <div ><br>${data.text}</div>
+  `
+};
 const createAbout = (data) => {
   const piece_title = document.querySelector("#piece");
   piece_title.innerHTML = "hi, i'm nathanial";
@@ -351,8 +372,8 @@ const dios = [
   {'image': 'img/dios/pupusa_print.jpg','title': 'mama chita`s', 'function': 'createPage(dios[0])', 'piece': 'dios bendiga este hogar', 'text': `<p>linoleum print on paper</p>`},
   {'image': 'img/dios/NathanialOrtiz_Tamales.jpg','title': 'a collage for tamales 1/2', 'function': 'createPage(dios[1])', 'piece': 'dios bendiga este hogar', 'text': `<p>acrylic paint, paper, printed images and text on cardboard</p>`},
   {'image': 'img/dios/tamales2.jpg','title': 'a collage for tamales 2/2', 'function': 'createPage(dios[2])', 'piece': 'dios bendiga este hogar', 'text': `<p>acrylic paint, paper, printed images and text on paper</p>`},
-  {'image': 'img/dios/nathanialortiz_a3.gif','link': '#', 'title': 'nathanial pix', 'function': 'createPage(dios[3])', 'piece': 'dios bendiga este hogar', 'text': `<p>drawing tool created in cs396: generative methods with dr. kate compton, using P5.JS.</p>`},
-  {'image': 'img/dios/pupuseriabot.gif','link': '#', 'title': 'pupuseriabot', 'function': 'createPage(dios[4])', 'piece': 'dios bendiga este hogar', 'text': `<p>Chat bot created in cs396: generative methods with dr. kate compton, Tracery.</p>`},
+  {'image': 'img/dios/nathanialortiz_a3.gif','link': 'https://natanyel.com/nathanial_pix', 'title': 'nathanial pix', 'function': 'createLink(dios[3])', 'piece': 'dios bendiga este hogar', 'text': `<p>drawing tool created in cs396: generative methods with dr. kate compton, using P5.JS.</p>`},
+  {'image': 'img/dios/pupuseriabot.gif','link': 'https://natanyel.com/pupuseriabot', 'title': 'pupuseriabot', 'function': 'createLink(dios[4])', 'piece': 'dios bendiga este hogar', 'text': `<p>Chat bot created in cs396: generative methods with dr. kate compton, Tracery.</p>`},
   {'image': 'img/dios/mantel.jpg','piece': 'the mantel', 'function': 'getMantel()',},
   {'image': 'img/dios/la_virgen_with_pupusas.jpg','title': 'la virgen with pupusas', 'function': 'createPage(dios[6])', 'piece': 'dios bendiga este hogar', 'text': `<p>inkjet printed image, acrylic paint, and paper on cardboard.</p>`},
    
