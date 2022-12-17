@@ -717,8 +717,8 @@ const cs150 =[
 ]
 
 const housingguide22 = [
-  {'image' : 'img/housingguide22/housingguide-22-cover.png',},
-  {'image' : 'img/housingguide22/housingguide-22-page.png',},
+  {'image' : 'img/housingguide22/housingguide-22-cover.PNG',},
+  {'image' : 'img/housingguide22/housingguide-22-page.PNG',},
   // {'image' : 'img/housingguide22/housingguide-22-mobile.png',},
 
 
@@ -776,6 +776,7 @@ const about = [
     Daily Northwestern | Various Print and Digital Illustrations <br>
     North By Northwestern | Animal Sightings at Northwestern | March 2021 <br>
     North By Northwestern | Safe2Pee | February 2022 <br>
+    North By Northwestern | NBN Housing Guide | May 2021, May 2022
     North By Northwestern | NBN Housing Guide | May 2021, May 2022
     </p>`,
     'image': 'img/me.jpg',
