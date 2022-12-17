@@ -835,8 +835,8 @@ const featured = [
   {'image': 'img/thumbnail/lunch_at_janets.gif', 'function': 'createPage(featured[14])', 'piece': 'personal illustration', 'title': 'lunch at janets', 'text': '',},
 
   {'image': 'img/thumbnail/new_reality.png', 'function': 'createPage(featured[15])', 'piece': 'personal illustration', 'title': 'New Reality', 'text': '',},
-  {'image': 'img/mantel/pupusas.PNG', 'function': 'createPage(featured[16])', 'piece': 'Pupusas for Sale', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
-  {'image': 'img/mantel/mantel_poster.PNG', 'function': 'createPage(featured[17])', 'piece': 'The Mantel', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
+  {'image': 'img/mantel/pupusas.png', 'function': 'createPage(featured[16])', 'piece': 'Pupusas for Sale', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
+  {'image': 'img/mantel/mantel_poster.png', 'function': 'createPage(featured[17])', 'piece': 'The Mantel', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
 
  
  
