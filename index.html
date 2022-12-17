@@ -6,25 +6,53 @@
       <!--my head in tab-->
       <link rel="icon" href="img/icon.PNG">
       <!--CSS Link-->
-      <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
       <meta name="viewport" content="width=device-width" />
     </head>
-   <body onload="getFeatured()">
+   <body onload="">
         <main>
-            <div class="container" id="container">
+            <div>
                 <div id="header">
-                    <a href="index.html"><h1 style="display: inline-block;">nathanial tomas ortiz</h1></a>
-                </div> 
-                <div id="side">
+                    <a href="index.html"><h1 style="display: inline-block;">home /</h1></a>
+                    <button onclick="getArt();"><h1>digimundo /</h1></button>
+                    <button onclick="getAbout();"><h1>cv /</h1></button>
+                    <button onclick="getFeatured();"><h1>gallery</h1></button>
+                </div>
+                <div id="content">
+                  <!-- <img id="estrellas" src="img/estrellas.PNG"> -->
+
+                    <h2 id="name">Nathanial Ortiz</h2>
+                    <p id="piece">(an artist based in Chicago/the SF Bay Area)</p>
+                    <div id="window">
+                        <div class="content">
+                          <section id="cards">
+                            <div class="card featured"><img class="img-div single-page" src="img/illustration/rana_rana.png"></div>
+
+                            <!-- <div id="pc-window" class="card red"><span> </span><img class="img-div featured" src="img/thumbnail/housingguide2022.jpg"></div>
+                            <div id="pc-window" class="card blue"><span> </span><img class="img-div featured" src="img/thumbnail/housingguide2022.jpg"></div>
+                            <div id="pc-window" class="card yellow"><span> </span><img class="img-div featured" src="img/thumbnail/housingguide2022.jpg"></div>
+                            <div id="pc-window" class="card yellow"><span> </span><img class="img-div featured" src="img/thumbnail/housingguide2022.jpg"></div>
+                            <div id="pc-window" class="card red"><span> </span><img class="img-div featured" src="img/thumbnail/housingguide2022.jpg"></div> -->
+                          </section>
+                          
+                        <div id="desc"><br><p></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                  <button onclick="getFeatured();" id="back"><h1>back</h1></button>
+
+                </div>
+                
+                <!-- <div id="side">
                     <h2 id="name">^-^</h2>
                 </div>
                 <div id="explorer">
                     <button onclick="getAbout()"><h3>about</h3></button>
                     <button onclick="getFeatured()"><h3>home</h3></button>
                 </div>
-                <!--window-->
                 <div id="title"><h2 id="piece">featured</h2></div>
                 <div id="window">
                     <div class="content">
@@ -33,7 +61,7 @@
                       </section>
                     </div>
                 </div>
-            </div> 
+            </div>  -->
         </main>
      <script src="script.js"></script>
    </body>
