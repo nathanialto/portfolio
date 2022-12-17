@@ -815,7 +815,7 @@ const featured = [
   'piece': 'Undergraduate Thesis Project', 
   'title': `Sometimes you want to say something, and if you were a songwriter you could. But, I'm not a songwriter, so I made this.`, 'images': senior, 
   'text': '<br><div><p>9 printed and digital posters displayed for the Northwestern Art Theory and Practice Senior Thesis Show</p></div>'},
-  {'image': 'img/pupusas/thumbnail.jpg', 
+  {'image': 'img/pupusas/thumbnail.JPG', 
   'function': 'createImagesPage(featured[4])', 
   'piece': 'undergraduate thesis show', 
   'title': 'How to Make Pupusas', 'images': zine, 
@@ -824,8 +824,8 @@ const featured = [
   {'image': 'img/senior/thumbnail.jpg',
   'function': 'createPage(animation[0])',},
   {'image': 'img/stickers/flan.jpg',  'function': 'getSticker()'},
-  {'image': 'img/illustration/toad_and_bird.png', 'function': 'createPage(featured[7])', 'piece': 'Personal Illustration', 'title': 'Toad and Bird', 'text': ''},
-  {'image': 'img/illustration/cyber_space_egg.png', 'function': 'createLargeImagesPage(featured[8])', 'images': print, 'piece': 'Print Work', 'title': 'Relief Print', 'text': ''},
+  {'image': 'img/illustration/toad_and_bird.PNG', 'function': 'createPage(featured[7])', 'piece': 'Personal Illustration', 'title': 'Toad and Bird', 'text': ''},
+  {'image': 'img/illustration/cyber_space_egg.PNG', 'function': 'createLargeImagesPage(featured[8])', 'images': print, 'piece': 'Print Work', 'title': 'Relief Print', 'text': ''},
   {'image': 'img/thumbnail/daily_coalitionnu.png', 'function': 'createPage(featured[9])', 'piece': 'The Daily Northwestern', 'title': 'CoalitionNU', 'text': '',},
   {'image': 'img/thumbnail/asg.jpg', 'function': 'createPage(featured[10])', 'piece': 'The Daily Northwestern', 'title': 'ASG', 'text': '',},
   {'image': 'img/thumbnail/valentines.png', 'function': 'createPage(featured[11])', 'piece': 'The Daily Northwestern', 'title': 'Valentines During Covid', 'text': '',},
@@ -835,8 +835,8 @@ const featured = [
   {'image': 'img/thumbnail/lunch_at_janets.gif', 'function': 'createPage(featured[14])', 'piece': 'personal illustration', 'title': 'lunch at janets', 'text': '',},
 
   {'image': 'img/thumbnail/new_reality.png', 'function': 'createPage(featured[15])', 'piece': 'personal illustration', 'title': 'New Reality', 'text': '',},
-  {'image': 'img/mantel/pupusas.png', 'function': 'createPage(featured[16])', 'piece': 'Pupusas for Sale', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
-  {'image': 'img/mantel/mantel_poster.png', 'function': 'createPage(featured[17])', 'piece': 'The Mantel', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
+  {'image': 'img/mantel/pupusas.PNG', 'function': 'createPage(featured[16])', 'piece': 'Pupusas for Sale', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
+  {'image': 'img/mantel/mantel_poster.PNG', 'function': 'createPage(featured[17])', 'piece': 'The Mantel', 'title': 'Junior Studio Project', 'text': '<br><div><p>poster apart of my junior studio project installation</p></div>',},
 
  
  
@@ -855,8 +855,8 @@ const featured = [
   // {'image': 'img/thumbnail/housing_guide.png', 'function': 'getHousing()'},
 
   {'image': 'img/thumbnail/eichler.png', 'function': 'getEichler()'},
-  {'image': 'img/thumbnail/pupuseria.png', 'title': "mama chita's pupuseria", 'function': 'createImagesPage(media_art[0])', 'piece': "mama chita's pupuseria", 'images': pupuseria, 'text': `<p>A Unity made game simulating making pupusas.</p>`},
-  {'image': 'img/thumbnail/collage.png','title': 'Collages + Mixed Media', 'function': 'createLargeImagesPage(featured[25])', 'images': collage, 'piece': 'Collage for Tamales (1+2) / Dios Bendiga Este Hogar', 'text': `<p>acrylic paint, paper, printed images and text on cardboard</p>`},
+  {'image': 'img/thumbnail/pupuseria.PNG', 'title': "mama chita's pupuseria", 'function': 'createImagesPage(media_art[0])', 'piece': "mama chita's pupuseria", 'images': pupuseria, 'text': `<p>A Unity made game simulating making pupusas.</p>`},
+  {'image': 'img/thumbnail/collage.PNG','title': 'Collages + Mixed Media', 'function': 'createLargeImagesPage(featured[25])', 'images': collage, 'piece': 'Collage for Tamales (1+2) / Dios Bendiga Este Hogar', 'text': `<p>acrylic paint, paper, printed images and text on cardboard</p>`},
 
 
 ]
@@ -864,9 +864,9 @@ const featured = [
 const art = [
   // {'image': 'img/illustration/pupuseria_thumbnail.png', },
   // {'image': 'img/symbols/mandarina.png', },
-  {'image': 'img/symbols/manos.png', },
-  {'image': 'img/symbols/paloma.png', },
-  {'image': 'img/symbols/white_edificio.png', },
+  {'image': 'img/symbols/manos.PNG', },
+  {'image': 'img/symbols/paloma.PNG', },
+  {'image': 'img/symbols/white_edificio.PNG', },
 
   // {'image': 'img/peru/2.png', },
   // {'image': 'img/peru/5.png', },
