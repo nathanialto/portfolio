@@ -1126,7 +1126,7 @@ const collage = [
 
 const featured = [
   {'image': 'img/peru/cover.png', 'function': 'createPage(featured[0])', 'piece': 'sana sana', 'title': '', 'grid': 'a',
-  'text': `<br><div><p><p></div>`},
+  'text': ``},
   {'image': 'img/peru/rana_rana.png', 'function': 'createPage(featured[1])', 'piece': 'sana sana', 'title': '', 'grid': 'b', 'text': ''},
   {'image': 'img/peru/5.png', 'function': 'createPage(featured[2])', 'piece': 'sana sana', 'title': '', 'grid': 'c', 'text': ''},
   {'image': 'img/illustration/paloma_couple.png', 

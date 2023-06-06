@@ -433,21 +433,31 @@ iframe{
         flex-basis: 100%;
     }
     #back{
-        left: 50%;
-        transform: translate(-50%, 0);
+        position: static;
+        margin-left: 50%;
+        transform: translate(-50%, 0)
     }
     .container{
-        grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 7fr;
         grid-template-areas: 
-        "d b"
-        "d g"
-        "d e"
-        "d c";
-        height: 50vh;
+        "b e g c"
+        "d d d d";
+    }
+    .grid-item>h5{
+        margin: 10px 0;
+        padding: 0;
     }
     .a{display: none;}
     .f{display: none;}
+    .b, .e, .g, .c {
+    display: inline-block;
+    height: fit-content;
+    padding: 8px 16px;
+    border-radius: 33px;
+    margin-bottom: 15px;
+    }
     .intro{display:none;}
     .housing{
         padding: 0 0%;
