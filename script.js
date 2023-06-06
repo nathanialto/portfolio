@@ -1168,7 +1168,7 @@ const featured = [
 
 const daily = [
   {'image': 'img/illustration/compressed/asg.JPG', 'piece': 'asg, daily northwestern'},
-  {'image': 'img/illustration/compressed/daily evicted.PNG', 'piece': 'evicted, daily northwestern'},
+  {'image': 'img/illustration/compressed/daily evicted.png', 'piece': 'evicted, daily northwestern'},
   {'image': 'img/illustration/compressed/admit_rate.PNG', 'piece': 'admit rate, daily northwestern'},
   {'image': 'img/illustration/compressed/music_major.PNG', 'piece': 'music major, daily northwestern'},
   {'image': 'img/illustration/compressed/valentines.PNG', 'piece': 'valentines, daily northwestern'},
