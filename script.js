@@ -494,13 +494,13 @@ const getSeniorShow = (term) => {
 
                       <section id="cards">
                         <section class="card featured-card">
-                          <img class="img-div" src="img/senior/orange.PNG"> 
+                          <img class="img-div" src="img/senior/orange.png"> 
                         </section>
                         <section class="card featured-card">
-                          <img class="img-div" src="img/senior/apple.PNG"> 
+                          <img class="img-div" src="img/senior/apple.png"> 
                         </section>
                         <section class="card featured-card">
-                          <img class="img-div" src="img/senior/melon.PNG">
+                          <img class="img-div" src="img/senior/melon.png">
                         </section>
                       </section>
                       <br>
@@ -540,7 +540,7 @@ const getPupuseria = (term) => {
   <button onclick="getPrint();" class="sub-header">Print</button>`; 
   elem.innerHTML = "";
   elem.innerHTML += `
-                    <section style="padding: 0 20%;" class="card featured-card"><img class="img-div" src="img/pupuseria/thumbnail.PNG"> </section>
+                    <section style="padding: 0 20%;" class="card featured-card"><img class="img-div" src="img/pupuseria/thumbnail.png"> </section>
 
                     <div style="text-align: left;">
                     <h3>about</h3>
@@ -586,10 +586,10 @@ const getPupuseria = (term) => {
                      </p>
                       <section id="cards">
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/curtido_tracker_code.PNG"> 
+                          <img class="img-div" src="img/pupuseria/curtido_tracker_code.png"> 
                         </section>
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/pupusa_cooking_code.PNG"> 
+                          <img class="img-div" src="img/pupuseria/pupusa_cooking_code.png"> 
                         </section>
                       </section>
 
@@ -605,19 +605,19 @@ const getPupuseria = (term) => {
 
                       <section id="cards">
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/skin0.PNG"> 
+                          <img class="img-div" src="img/pupuseria/skin0.png"> 
                         </section>
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/skin3.PNG"> 
+                          <img class="img-div" src="img/pupuseria/skin3.png"> 
                         </section>
                       </section>
 
                       <section id="cards">
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/skin2.PNG"> 
+                          <img class="img-div" src="img/pupuseria/skin2.png"> 
                         </section>
                         <section class="card featured-card">
-                          <img class="img-div" src="img/pupuseria/skin1.PNG"> 
+                          <img class="img-div" src="img/pupuseria/skin1.png"> 
                         </section>
                       </section>`;
 
@@ -995,9 +995,9 @@ const nameIllustrations = (x) => {
 const interactives = [
   {'image': 'img/projects/safe2pee.png','link': 'https://northbynorthwestern.com/safe2pee/'},
   {'image': 'img/projects/forking_frijoles.GIF','link': 'https://natanyel.com/forking_frijoles/'},
-  {'image': 'img/projects/sheridan_rd.PNG','link': 'https://nathanialto.github.io/sheridan_rd/',},
-  {'image': 'img/projects/housing_guide.PNG','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
-  // {'image': 'img/illustration/compressed/wild_geese.PNG','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
+  {'image': 'img/projects/sheridan_rd.png','link': 'https://nathanialto.github.io/sheridan_rd/',},
+  {'image': 'img/projects/housing_guide.png','link': 'https://northbynorthwestern.com/housing-guide-2021/',},
+  // {'image': 'img/illustration/compressed/wild_geese.png','link': 'https://northbynorthwestern.com/animals-of-northwestern/',},
   // {'image': 'img/projects/cloud_cat.gif','link': 'https://nathanialto.github.io/cloud_cat/',},
   {'image': 'img/projects/eichler.png','link': 'https://nathanialto.github.io/the_eichler_homepage/',},
    
@@ -1030,19 +1030,19 @@ const stickers = [
 ]
 
 const senior = [
-  {'image': 'img/senior/senior_1.PNG',},
-  {'image': 'img/senior/senior_2.PNG',},
-  {'image': 'img/senior/senior_3.PNG',},
-  {'image': 'img/senior/senior_4.PNG',},
-  {'image': 'img/senior/senior_5.PNG',},
-  {'image': 'img/senior/senior_6.PNG',},
+  {'image': 'img/senior/senior_1.png',},
+  {'image': 'img/senior/senior_2.png',},
+  {'image': 'img/senior/senior_3.png',},
+  {'image': 'img/senior/senior_4.png',},
+  {'image': 'img/senior/senior_5.png',},
+  {'image': 'img/senior/senior_6.png',},
   {'image': 'img/senior/senior_7.jpg',},
-  {'image': 'img/senior/senior_8.PNG',},
-  {'image': 'img/senior/senior_9.PNG',}
+  {'image': 'img/senior/senior_8.png',},
+  {'image': 'img/senior/senior_9.png',}
 ]
 
 const spencer = [
-  {'image': 'img/zine/cover.PNG',},
+  {'image': 'img/zine/cover.png',},
   {'image': 'img/zine/page1.png',},
   {'image': 'img/zine/page2.png',},
   {'image': 'img/zine/page3.png',},
@@ -1169,10 +1169,10 @@ const featured = [
 const daily = [
   {'image': 'img/illustration/compressed/asg.JPG', 'piece': 'asg, daily northwestern'},
   {'image': 'img/illustration/compressed/daily evicted.png', 'piece': 'evicted, daily northwestern'},
-  {'image': 'img/illustration/compressed/admit_rate.PNG', 'piece': 'admit rate, daily northwestern'},
-  {'image': 'img/illustration/compressed/music_major.PNG', 'piece': 'music major, daily northwestern'},
-  {'image': 'img/illustration/compressed/valentines.PNG', 'piece': 'valentines, daily northwestern'},
-  {'image': 'img/illustration/compressed/wild_geese.PNG', 'piece': 'wild geese, north by northwestern'},
+  {'image': 'img/illustration/compressed/admit_rate.png', 'piece': 'admit rate, daily northwestern'},
+  {'image': 'img/illustration/compressed/music_major.png', 'piece': 'music major, daily northwestern'},
+  {'image': 'img/illustration/compressed/valentines.png', 'piece': 'valentines, daily northwestern'},
+  {'image': 'img/illustration/compressed/wild_geese.png', 'piece': 'wild geese, north by northwestern'},
 
 ]
 
