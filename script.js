@@ -1141,7 +1141,7 @@ const featured = [
   'title': '', 
   'grid': 'e',
   'text': ``},
-  {'image': 'img/illustration/toad_and_bird.PNG', 'function': 'createPage(featured[5])', 'piece': 'Toad and Paloma', 'title': '',  'grid': 'b', 'text': ''},
+  {'image': 'img/illustration/toad_and_bird.png', 'function': 'createPage(featured[5])', 'piece': 'Toad and Paloma', 'title': '',  'grid': 'b', 'text': ''},
   {'image': 'img/illustration/casi.png',
   'function': 'createPage(featured[6])',
   'piece': 'Almost my size',
