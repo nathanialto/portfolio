@@ -21,7 +21,8 @@ h1{
     
 }
 h2{
-    font-family: 'Josefin Sans', 'sans-serif';
+    font-family: 'Josefin Sans', 'Ubuntu', 'sans-serif';
+    font-style: italic;
 }
 h3{
     font-size: 25px;
@@ -438,15 +439,19 @@ iframe{
         transform: translate(-50%, 0)
     }
     .container{
-        grid-gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 7fr;
+        padding-top: 0;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: 
-        "b e g c"
-        "d d d d";
+        "b"
+        "e"
+        "d"
+        "c"
+        "g";
     }
     .grid-item>h5{
-        margin: 10px 0;
+        margin: 20px 0;
         padding: 0;
     }
     .a{display: none;}
@@ -456,9 +461,10 @@ iframe{
     height: fit-content;
     padding: 8px 16px;
     border-radius: 33px;
-    margin-bottom: 15px;
     }
-    .intro{display:none;}
+    #name{
+        font-size: 2rem;
+    }
     .housing{
         padding: 0 0%;
     }    
@@ -469,6 +475,10 @@ iframe{
         margin-left: 0;
         margin-top: 9vh ;
     }
+    #intro > p{
+        font-size: 22px;
+    }
+    #intro{margin-top:20px;}
 }
 
 /* colors */
