@@ -1,97 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <!--name of page in tab-->
-      <title>Nathanial Ortiz's Portfolio</title>
-      <!--my head in tab-->
-      <link rel="icon" href="img/icon.png">
-      <!--CSS Link-->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+<head>
+    <title>Nathanial Ortiz</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-      <meta name="viewport" content="width=device-width" />
-    </head>
-   <body>
-        <main>
-            <div>
-                <div id="header">
-                    <a href="index.html"><h1 style="display: inline-block;">home</h1></a>
-                    <a href="art.html"><h1 style="display: inline-block;">art</h1></a>
-                    <a href="design.html"><h1 style="display: inline-block;">design</h1></a>
-                    <a href="code.html"><h1 style="display: inline-block;">code</h1></a>
-                    <a href="cv.html"><h1 style="display: inline-block;">cv</h1></a>
+</head>
 
+<body>
+    <div class="topnav"> 
+        <a href="index.html">home</a>
+        <a href="illustration.html">illustration</a>
+        <a id="namenav">nathanial ortiz</a>
+        <a class="active" href="interactive.html">interactive</a>
+        <a href="design.html">design</a>
+    </div>
+    <div class="project-page">
+        <h2 class="header">Forking Frijoles</h1>
+        <img class="lead-image" src="img/frijol_5.png">
+        <h3>about</h3>
+        <p>
+            I made "Forking Frijoles" for my final in Web Convergence. 
+            The project synthesized months of work I put into learning how to make beans like my grandma. 
+            I wanted to recreate this experience and share cultural knowledge in a playful yet generative way. 
+            The project was built in HTML and CSS, and featured my illustration.
+        </p>
+        <img class="lead-image" src="img/forking_frijoles.gif">
+        <h3>gameplay</h3>
+        <p>
+            The game uses a playful, comedic tone as it teaches the user how to make frijoles. I use my own experience
+            with learning how to make beans from my grandma, aunt, and trial-and-error. The gameplay relfects my own 
+            experience of reproducing aspects of culture at a distance from my family and community.
+        </p>
+        <img class="lead-image" src="img/forking_frijoles1.gif">
+        <h3>code</h3>
+        <p>
+            I heavily utilized HTML and CSS to make this game, as well as a bit of Javascript
+            to show the player which answers were correct and incorrect as they answer each of the questions.
+        </p>
+        <h3>illustration</h3>
+        <p>
+            I created a lot of illustrations for this piece, including some that were GIFS/animated in Procreate. 
+            This helped set the tone of the project and gave it another layer of personality.
+        </p>
+        <div class="three-row-photo-grid">
+            <img src="img/hot_pot.gif">
+            <img src="img/canned_whole.png">
+            <img src="img/dancing_bean.gif">
+            <img src="img/bayleaf_and_cumin.png">
+            <img src="img/onion_pepper.png">
+            <img src="img/wing.png">
 
-                </div>
-                <div id="content">
-                    <h2 id="name">Forking Frijoles</h2><br>
-                    <section class="housing card featured-card"><img class="img-div" src="img/frijol_5.png"> </section>
-                    <a style="display: inline-block;" href="https://natanyel.com/forking_frijoles/"><h4>< link to project ></h4></a>
+        </div>
 
-                    <div style="text-align: left;">
-                    <h3>about</h3>
-                    <p>
-                       I made "Forking Frijoles" for my final in Web Convergence. 
-                       The project synthesized months of work I put into learning how to make beans like my grandma. 
-                       I wanted to recreate this experience and share cultural knowledge in a playful yet generative way. 
-                       The project was built in HTML and CSS, and featured my illustration.
-                    </p>
-                    <!-- <a style="display: inline-block; position:static;" href="https://natanyel.com/forking_frijoles/" id="back"><h1>link to project</h1></a> -->
-                    <br>
-
-                    <h3>gameplay</h3>
-                    <p>
-                      The game uses a playful, comedic tone as it teaches the user how to make frijoles. I use my own experience
-                      with learning how to make beans from my grandma, aunt, and trial-and-error. The gameplay relfects my own 
-                      experience of reproducing aspects of culture at a distance from my family and community.
-                   </p>
-                   <section class="housing card featured-card"><img class="img-div" src="img/forking_frijoles.gif"> </section>
-
-
-                  <h3>code</h3>
-                  <p>
-                        I heavily utilized HTML and CSS to make this game, as well as a bit of Javascript
-                        to show the player which answers were correct and incorrect as they answer each of the questions.
-          
-                  </p> 
-                  <section class="housing card featured-card"><img class="img-div" src="img/forking_frijoles1.gif"> </section>
-
-                  <h3>illustration</h3>
-                    <p>
-                        I created a lot of illustrations for this piece, including some that were GIFS/animated in Procreate. 
-                        This helped set the tone of the project and gave it another layer of personality.
-                    </p>
-                    <section id="cards">
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/hot_pot.GIF"> 
-                      </section>
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/canned_whole.png"> 
-                      </section>
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/dancing_bean.gif">
-                      </section>
-                    </section>
-                    <section id="cards">
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/bayleaf_and_cumin.png"> 
-                      </section>
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/onion_pepper.png"> 
-                      </section>
-                      <section class="card featured-card">
-                        <img class="img-div" src="img/frijoles/wing.png">
-                      </section>
-                    </section>
-                    <!-- <a style="display: inline-block;" href="https://natanyel.com/forking_frijoles/" id="back"><h1>link</h1></a> -->
-
-                  </div>    
-        </main>
-     <script src="script.js"></script>
-   </body>
+    </div>
+        
+</body>
 </html>
-

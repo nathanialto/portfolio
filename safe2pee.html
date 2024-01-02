@@ -1,124 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <!--name of page in tab-->
-      <title>Nathanial Ortiz's Portfolio</title>
-      <!--my head in tab-->
-      <link rel="icon" href="img/icon.png">
-      <!--CSS Link-->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+<head>
+    <title>Nathanial Ortiz</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-      <meta name="viewport" content="width=device-width" />
-    </head>
-   <body onload="">
-        <main>
-            <div>
-                <div id="header">
-                    <a href="index.html"><h1 style="display: inline-block;">home</h1></a>
-                    <a href="art.html"><h1 style="display: inline-block;">art</h1></a>
-                    <a href="design.html"><h1 style="display: inline-block;">design</h1></a>
-                    <a href="code.html"><h1 style="display: inline-block;">code</h1></a>
-                    <a href="cv.html"><h1 style="display: inline-block;">cv</h1></a>
+</head>
 
+<body>
+    <div class="topnav"> 
+        <a href="index.html">home</a>
+        <a href="illustration.html">illustration</a>
+        <a id="namenav">nathanial ortiz</a>
+        <a class="active" href="interactive.html">interactive</a>
+        <a href="design.html">design</a>
+    </div>
+    <div class="project-page">
+        <h2 class="header">Safe2Pee</h1>
+        <img class="lead-image" src="img/safe2pee_animation.gif">
+        <a class="yellow" href="https://northbynorthwestern.com/safe2pee/">< link to project ></a>
+        <h3>about</h3>
+        <p>
+          Safe2Pee was a project I created for the Interactives Section of North By Northwestern.
+          It is a guide that helps people within the Northwestern University community find
+          accessible and gender-neutral bathrooms on campus.
+        </p>
+        <div class="skills">
+          <a>Figma</a><a>HTML/CSS</a><a>Javascript</a><a>APIs</a>
+        </div>
+        <h3>my role</h3>
+        <p>
+          Safe2Pee was a solo project, so I designed and developed the guide alone. I did source much of the data
+          from Queer@NU and physically visited bathrooms to verify and expand the data with my co-editor Olivia Lloyd.
+        </p>
+        <h3>problem</h3>
+        <p>
+          As the Northwestern community returned back to campus during the 2021-2022 term, I realized how difficult 
+          it was to find gender-neutral restrooms on campus.
+        </p>
+        <h3>solution</h3>
+        <p style="margin-bottom: 0;">
+          With the support of the publication North By Northwestern, my solution was to create a tool to help the
+           community find gender-neutral and ADA-accessible restrooms at Northwestern that included:
+        </p>
+        <ul>
+          <li>Create a <strong>sleek, modern design</strong> for the guide that keeps the style 
+          of the previous guides and represents the publication well. (purple, easy to use)
+          </li>
+          <li>Add <strong>accessibility and gender-inclusive information</strong> 
+          to meet DEI goals of the publication</li>
+          <li>Add new dorms that were missing from previous guides</li>
+          <li>Add new descriptions and testimonials from each dorm to 
+          reflect the perspective a new generation of students</li>
+        </ul>
+        <h3>early ideation</h3>
+        <p>
+          For the design, I focused on visual simplicity. I wanted to make it colorful so 
+          that it felt less like an app and created a sense of comfort or fun, to signal to 
+          users that this isn't just another site they will come across as they scroll on their 
+          computers or phones.
+        </p>
+        <div class="photo-grid">
+          <img src="img/safe2pee_wireframe_p1.png">
+          <img src="img/safe2pee_wireframe_p2.png">
+        </div>
+        <p>
+          I used the initial page to explain the tool and display the credits to separate it 
+          from the tool itself, and to give the user a chance to understand it before trying it 
+          out. The second page is separated by a grid that has building locations written in text 
+          on the left and a map on the right.
+        </p>
+        <div class="photo-grid lead-image">
+          <img src="img/safe2pee_wireframe_mobile1.png">
+          <img src="img/safe2pee_wireframe_mobile2.png">
+        </div>
+        <p>
+          The mobile design was particularly important because I suspected that the tool 
+          would be most widely used on the move. Due to the program's simple nature, I could 
+          easily fit every feature in the mobile version.
+        </p>
+        <h3>final designs</h3>
+        <p>
+          The final design mostly stayed true to the wireframes. I excluded a search option 
+          from the final because it would have been too difficult to code in and it was unnecessary 
+          due to the function of the scrollable locations and location finder.
+        </p>
+        <div class="photo-grid lead-image">
+          <img src="img/safe2pee_mobile1.png">
+          <img src="img/safe2pee_mobile2.png">
+        </div>
+        <p>Safe2Pee effectively included the 'find my location' button that called on a 
+          function built into Javascript that asks for the location of the device being used in 
+          order to find the bathrooms closest to the user on the map. The user can then click on
+           the map to discover the bathrooms closest to them.
+        </p>
+        <div class="photo-grid">
+          <img src="img/safe2pee_cover.png">
+          <img src="img/safe2pee_main.png">
+        </div>
+        <h3>results</h3>
+        <p>
+          With the help of a fellow North By Northwestern editor who connected us with the disabled 
+          students' community on campus, Safe2Pee was able to increase access to bathrooms for 
+          all students.
+        </p>
 
-                </div>
-                <div id="content">
-                    <h2 id="name">Safe2Pee</h2>
-                    <section class="housing card featured-card"><img class="img-div" src="img/safe2pee_animation.gif"> </section>
-                    <a style="display: inline-block;" href="https://northbynorthwestern.com/safe2pee/"><h4>< link to project ></h4></a>
-
-                    <div style="text-align: left;">
-                    <h3>about</h3>
-                    <p>
-                      <strong>Safe2Pee</strong> was a project I created for the Interactives Section of North By Northwestern. 
-                      It is a guide that helps people within the Northwestern University community find 
-                      accessible and gender-neutral bathrooms on campus.                    
-                    </p>
-                    <h4>Figma</h4>
-                    <h4>HTML/CSS</h4>
-                    <h4>Javascript</h4>
-                    <h4>APIs</h4><br>
-                    <h3>my role</h3>
-                    <p>
-                      <strong>Safe2Pee was a solo project, so I designed and developed the guide alone.</strong> I did source much 
-                      of the data from Queer@NU and physically visited bathrooms to verify and expand the data 
-                      with my co-editor Olivia Lloyd.
-                    </p>
-                    <h3>problem</h3>
-                    <p>
-                      As the Northwestern community returned back to campus during the 2021-2022 term, I realized 
-                      how difficult it was to find gender-neutral restrooms on campus.                     
-                    </p>
-                    <h3>solution</h3>
-                    <p>
-                      With the support of the publication North By Northwestern, my solution was to create a 
-                      tool to help the community find gender-neutral and ADA-accessible restrooms at Northwestern that included:                    </p>
-                    <ul>
-                      <li>an easy-to-use guide accessible to all members of the Northwestern community
-                      </li>
-                      <li>a visible map that shows all bathrooms on campus</li>
-                      <li>a function to identify someone's location so they can find the closest gender-neutral bathrooms near them</li>
-                      <li>and connect the data on the textual list with the map</li>
-                    </ul>
-
-                    <h3>early ideation</h3>
-                    <p>For the design, I focused on visual simplicity. I wanted to make it colorful so that it felt less 
-                      like an app and created a sense of comfort or fun, to signal to users that this isn't just another 
-                      site they will come across as they scroll on their computers or phones.
-                    </p>
-                    <section id="cards" style="padding-top: 0;"> 
-                    <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_wireframe_p1.png"> </section>
-                    <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_wireframe_p2.png"> </section>
-                    </section>
-                    <p>
-                      I used the initial page to explain the tool and display the credits to separate it from the tool itself, 
-                      and to give the user a chance to understand it before trying it out. The second page is separated by a 
-                      grid that has building locations written in text on the left and a map on the right. 
-                    </p>
-                    <section id="cards" class="pupusa" style="padding-top: 0;"> 
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_wireframe_mobile1.png"> </section>
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_wireframe_mobile2.png"> </section>
-                    </section>
-                    <p>
-                      The mobile design was particularly important because I suspected that the tool would be most widely used 
-                      on the move. Due to the program's simple nature, I could easily fit every feature in the mobile version.  
-                    </p>
-                    <h3>final designs</h3>
-                    <p>The final design mostly stayed true to the wireframes. I excluded a search option from the final because 
-                      it would have been too difficult to code in and it was unnecessary due to the function of the scrollable 
-                      locations and location finder.</p>
-                    <section id="cards" class="pupusa" style="flex-direction: center;"> 
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_mobile1.png"> </section>
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_mobile2.png"> </section>
-                    </section>
-                    <p>Safe2Pee effectively included the "use my location" button that called on a function built into Javascript
-                       that asks for the location of the device being used in order to find the bathrooms closest to the user on 
-                       the map. The user can then click on the map to discover the bathrooms closest to them. </p>
-
-                    <section id="cards" style=" flex-direction: center;"> 
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_cover.png"> </section>
-                      <section class="card featured-card"><img class="img-div" style="border-radius: 10px;" src="img/safe2pee_main.png"> </section>
-                    </section>
-
-                    <h3>results</h3>
-                    <p>With the help of a fellow North By Northwestern editor who connected us with the disabled students' 
-                      community on campus, Safe2Pee was able to increase access to bathrooms for all students. </p>
-                      
-
-
-                  </div>
-                </div>
-                <div>
-                  <!-- <button onclick="document.location='design.html'" style="display: inline-block;" id="back"><h1>back</h1></button> -->
-
-                </div>
-        </main>
-     <script src="script.js"></script>
-   </body>
+    </div>
+        
+</body>
 </html>
-
